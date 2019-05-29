@@ -1,0 +1,120 @@
+body {
+	padding-bottom: 70px;
+}
+
+.logo{
+	height: 100%;
+	display:inline;
+}
+
+.navbar-default .navbar-brand {
+	color: #EBD547;
+	display:inline;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #EBD547;
+}
+
+.navbar-brand {
+	font-family: impact;
+}
+
+.centered {
+	margin: auto;
+}
+
+.ex-padding-top {
+	margin-top: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-fixed-bottom > .container > p {
+	padding-top: 13px;
+}
+
+.selector .btn{
+	float:left;
+	border-radius: 0px;
+}
+
+.btn-submit {
+	border-radius: 0px;
+}
+
+.sm-radio {
+	height:15px;
+}
+
+.fileForm {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.inactive {
+	color: #aaaaaa;
+}
+
+@keyframes controlsHover {
+	from{color: #545556;}
+	to{color:#5cb85c;}
+}
+
+@keyframes controlsHover-x {
+	from{color: #5cb85c;}
+	to{color:#545556;}
+}
+
+.audio-player {
+	width: 210px;
+}
+
+.audio-player *:not(.active) {
+	margin-right: 15px;
+	animation-name: controlsHover-x;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	color: #545556;
+}
+
+.audio-player *:not(.active):hover {
+	animation-name: controlsHover;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	color: #5cb85c;
+}
+
+.audio-player .active {
+	margin-right: 15px;
+	color: #5cb85c;
+}
+
+@keyframes trackControlsHover {
+	from {color:#FFFFFF;}
+	to {color:#5cb85c;}
+}
+
+@keyframes trackControlsHover-x {
+	from {color:#5cb85c;}
+	to {color:#FFFFFF;}
+}
+
+.play .fa-play, .play .fa-pause {
+	color: #FFFFFF;
+	animation-name: trackControlsHover-x;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+.play .fa-play:hover, .play .fa-pause:hover {
+	animation-name: trackControlsHover;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	color: #5cb85c;
+}
+
+#download-wrapper {
+	margin-top:15px;
+	width: 115px;
+}

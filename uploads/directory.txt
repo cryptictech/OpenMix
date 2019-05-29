@@ -1,0 +1,2 @@
+This is where people will upload their files so that they can edit them in the editor.
+DO NOT DELETE THIS DIRECTORY, APPLICATION WILL NOT WORK PROPERLY WITHOUT IT
